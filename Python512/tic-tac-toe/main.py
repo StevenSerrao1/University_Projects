@@ -1,3 +1,8 @@
-﻿
-print('========== Welcome to TIC-TAC-TOE ==========\n---------------------------------------------\n\n')
-vs_choice = input('Choose your playing mode:\n1.) Player vs. Player\n2.) ')
+﻿# Import necessary class
+import Board_class as bc
+
+# Create a board instance
+board = bc.Board()
+
+# Main game loop
+board.start_game()
